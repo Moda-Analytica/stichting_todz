@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-design-icon {
+	@apply -bottom-0.5;
+}
+
+.material-design-icon .material-design-icon__svg {
+	@apply bottom-0 !important;
+}
