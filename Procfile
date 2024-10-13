@@ -1,1 +1,1 @@
-web: cd frontend && npm run dev
+web: cd frontend && npm install && npm run build && npx serve -s dist
